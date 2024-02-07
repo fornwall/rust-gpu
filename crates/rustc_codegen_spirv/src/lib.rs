@@ -93,7 +93,7 @@ use rustc_codegen_ssa::back::write::{
 };
 use rustc_codegen_ssa::base::maybe_create_entry_wrapper;
 use rustc_codegen_ssa::mono_item::MonoItemExt;
-use rustc_codegen_ssa::traits::{
+pub use rustc_codegen_ssa::traits::{
     CodegenBackend, ExtraBackendMethods, ModuleBufferMethods, ThinBufferMethods,
     WriteBackendMethods,
 };

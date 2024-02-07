@@ -8,8 +8,8 @@ edition.workspace = true
 license.workspace = true
 repository.workspace = true
 
-[lib]
-crate-type = ["dylib"]
+# [lib]
+# crate-type = ["dylib"]
 
 [features]
 # By default, the use-compiled-tools is enabled, as doesn't require additional
